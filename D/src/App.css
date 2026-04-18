@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +6,7 @@
   font-family: Arial, sans-serif;
 }
 
-/* الصفحة */
+
 body {
   height: 100vh;
   display: flex;
@@ -15,7 +15,7 @@ body {
   background: linear-gradient(135deg, #e0e7ff, #f8fafc);
 }
 
-/* الكارد */
+
 body > div {
   background: white;
   padding: 25px;
@@ -24,7 +24,7 @@ body > div {
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
 
-/* input */
+
 input {
   width: 100%;
   padding: 12px;
@@ -40,7 +40,7 @@ input:focus {
   box-shadow: 0 0 8px rgba(99, 102, 241, 0.3);
 }
 
-/* النتائج */
+
 p {
   padding: 10px;
   margin-bottom: 10px;
@@ -50,7 +50,7 @@ p {
   font-size: 14px;
 }
 
-/* hover */
+
 p:hover {
   background: #e0e7ff;
   transform: translateX(5px);
