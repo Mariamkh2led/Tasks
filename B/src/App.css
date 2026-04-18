@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #e0e7ff, #f8fafc);
+}
+
+body > div {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 8px rgba(99, 102, 241, 0.3);
+}
+
+p {
+  margin: 10px 0;
+  font-size: 15px;
+  color: #444;
+}
+
+p:last-child {
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+p:last-child:contains("Too short") {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+p:last-child:contains("Good") {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+p:last-child:contains("Too long") {
+  background: #fef3c7;
+  color: #d97706;
+}
